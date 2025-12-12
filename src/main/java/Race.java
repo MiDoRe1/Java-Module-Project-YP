@@ -1,7 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.lang.Math;
 public class Race {
     ArrayList<Car> cars;
     Race(ArrayList<Car> cars) {

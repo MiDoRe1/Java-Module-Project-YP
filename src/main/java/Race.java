@@ -1,9 +1,14 @@
 import java.util.ArrayList;
 public class Race {
     ArrayList<Car> cars;
-    Race(ArrayList<Car> cars) {
+    int hoursInRace;
+
+
+    Race(ArrayList<Car> cars,  int hoursInRace) {
         this.cars = cars;
+        this.hoursInRace = hoursInRace;
     }
+
 
     public Car getWinnerCar() {
         Car winnerCar = cars.getFirst();
